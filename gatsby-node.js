@@ -58,9 +58,7 @@ exports.createPages = async ({ actions, graphql }) => {
       context: {
         // Passing slug for template to use to fetch the post
         slug: node.fields.slug,
-        // Find author imageUrl from author array and pass it to template
-        imageUrl: authors.find(x => x.name === node.frontmatter.author)
-          .imageUrl,
+       ,
       },
     })
   })
@@ -126,4 +124,14 @@ exports.createPages = async ({ actions, graphql }) => {
   })
 
   // Create author posts pages
+  authors.forEach(author => {
+    createPage({
+      path: `/author/${slugify(author.name)}`,
+      component: templates.authorPosts,
+      context: {
+        authorName: author.name,
+        imageUrl: author.imageUrl,
+      },
+    })
+  })
 }
