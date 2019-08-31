@@ -17,7 +17,6 @@ const SinglePost = ({ data, pageContext, location }) => {
     <Layout
       pageTitle={post.title}
       postAuthor={author}
-      authorImageFluid={data.file.childImageSharp.fluid}
     >
       <SEO
         author={post.author}
