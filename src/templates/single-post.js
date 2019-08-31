@@ -137,13 +137,6 @@ export const postQuery = graphql`
         }
       }
     }
-    file(relativePath: { eq: $imageUrl }) {
-      childImageSharp {
-        fluid(maxWidth: 300) {
-          ...GatsbyImageSharpFluid
-        }
-      }
-    }
   }
 `
 
