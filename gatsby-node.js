@@ -56,9 +56,7 @@ exports.createPages = async ({ actions, graphql }) => {
       path: node.fields.slug,
       component: templates.post,
       context: {
-        // Passing slug for template to use to fetch the post
         slug: node.fields.slug,
-       ,
       },
     })
   })
