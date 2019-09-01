@@ -1,14 +1,10 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import mycover from '../images/mycover.jpg'
 
 const AboutPage = () => (
   <Layout pageTitle="About us">
     <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="col-md-3">
-        <img src={mycover} style={{ maxWidth: '100%' }} alt="My Cover" />
-      </div>
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam
       pariatur magnam nulla quis nobis rerum vitae in delectus modi

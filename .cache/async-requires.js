@@ -11,6 +11,8 @@ exports.components = {
   "component---src-pages-404-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\404.js" /* webpackChunkName: "component---src-pages-404-js" */),
   "component---src-pages-about-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\about.js" /* webpackChunkName: "component---src-pages-about-js" */),
   "component---src-pages-index-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\index.js" /* webpackChunkName: "component---src-pages-index-js" */),
-  "component---src-pages-team-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\team.js" /* webpackChunkName: "component---src-pages-team-js" */)
+  "component---src-pages-team-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\team.js" /* webpackChunkName: "component---src-pages-team-js" */),
+  "component---src-pages-contact-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\contact.js" /* webpackChunkName: "component---src-pages-contact-js" */),
+  "component---src-pages-privacy-js": () => import("C:\\Users\\Tahsin Kabir Khan\\Documents\\GitHub\\Test\\src\\pages\\privacy.js" /* webpackChunkName: "component---src-pages-privacy-js" */)
 }
 
