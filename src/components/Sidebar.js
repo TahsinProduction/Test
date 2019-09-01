@@ -14,25 +14,6 @@ const Sidebar = () => (
   <div>
     <Card>
       <CardBody>
-        <CardTitle className="text-center text-uppercase mb-3">
-          Newsletter
-        </CardTitle>
-        <Form className="text-center">
-          <FormGroup>
-            <Input
-              type="email"
-              name="email"
-              placeholder="Your email address.."
-            />
-          </FormGroup>
-          <button className="btn btn-outline-success text-uppercase">
-            Subscribe
-          </button>
-        </Form>
-      </CardBody>
-    </Card>
-    <Card>
-      <CardBody>
         <CardTitle className="text-center text-uppercase">
           Advertisement
         </CardTitle>
