@@ -1,6 +1,5 @@
 const path = require('path')
 const { slugify } = require('./src/util/utilityFunctions')
-const authors = require('./src/util/authors')
 const _ = require('lodash')
 
 exports.onCreateNode = ({ node, actions }) => {
@@ -56,6 +55,7 @@ exports.createPages = async ({ actions, graphql }) => {
       path: node.fields.slug,
       component: templates.post,
       context: {
+        // Passing slug for template to use to fetch the post
         slug: node.fields.slug,
       },
     })

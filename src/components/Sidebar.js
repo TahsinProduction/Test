@@ -10,7 +10,7 @@ import {
 import { graphql, StaticQuery, Link } from 'gatsby'
 import Img from 'gatsby-image'
 
-const Sidebar = ({ author, authorFluid }) => (
+const Sidebar = () => (
   <div>
     <Card>
       <CardBody>

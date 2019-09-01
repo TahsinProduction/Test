@@ -13,7 +13,7 @@ const tagsPage = ({ pageContext }) => {
         {tags.map(tag => (
           <li key={tag} style={{ marginBottom: '10px' }}>
             <Button color="primary" href={`/tag/${slugify(tag)}`}>
-              {tag} <Badge color="dark">{tagPostCounts[tag]}</Badge>
+              {tag} <Badge color="light">{tagPostCounts[tag]}</Badge>
             </Button>
           </li>
         ))}
