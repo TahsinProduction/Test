@@ -1,6 +1,7 @@
 const path = require('path')
 const { slugify } = require('./src/util/utilityFunctions')
 const _ = require('lodash')
+const authors = require('./src/util/authors')
 
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
