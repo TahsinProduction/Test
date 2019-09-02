@@ -36,14 +36,20 @@ class Header extends React.Component {
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
               <Nav className="ml-auto" navbar>
-                <NavItem>
-                  <NavLink href="/team">Team</NavLink>
-                </NavItem>
-                <NavItem>
+              <NavItem>
                   <NavLink href="/tags">Tags</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink href="/about">About</NavLink>
+                  <NavLink href="/about">AboutUs</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/privacy">PrivacyPolicy</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/terms">TermsAndCondition</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink href="/contact">ContactUs</NavLink>
                 </NavItem>
               </Nav>
             </Collapse>
