@@ -73,8 +73,7 @@ function SEO({
               .concat(meta)}
           />
         )
-      }
-    }
+      }}
     />
   )
 }
