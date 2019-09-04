@@ -9,7 +9,7 @@ import { slugify } from '../util/utilityFunctions'
 const SinglePost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark.frontmatter
 
-  const baseUrl = 'https://gatsbytutorial.co.uk/'
+  const baseUrl = 'https://tahsinproduction.com/'
 
   return (
     <Layout
@@ -78,20 +78,6 @@ const SinglePost = ({ data, pageContext, location }) => {
               rel="noopener noreferrer"
             >
               <i className="fab fa-twitter fa-2x" />
-            </a>
-          </li>
-          <li>
-            <a
-              href={
-                'https://plus.google.com/share?url=' +
-                baseUrl +
-                pageContext.slug
-              }
-              className="google"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fab fa-google fa-2x" />
             </a>
           </li>
           <li>

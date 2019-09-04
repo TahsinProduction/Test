@@ -1,21 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
-import mycover from '../images/aboutp.jpg'
 
 const AboutPage = () => (
-  <Layout pageTitle="About us">
-    <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
-    <div className="col-md-3">
-        <img src={mycover} style={{ maxWidth: '100%' }} alt="My Cover" />
-      </div>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quibusdam
-      pariatur magnam nulla quis nobis rerum vitae in delectus modi
-      exercitationem amet quasi, distinctio illo blanditiis, adipisci, odio unde
-      minima numquam architecto! Odit sequi facere sit odio maiores possimus
-      ratione!
-    </p>
-  </Layout>
-)
+  <Layout pageTitle="Contact Us">
+    <SEO title="ContactUS" keywords={[`gatsby`, `application`, `react`]} />
+    <div className="col-md-3"></div>
+    <img src = "https://lh3.googleusercontent.com/66fkMhM37jZ2C1I9HZbIpn_Oebmx_HytEbvFd4HSKjpULIzO5hzh8w2dRBaibstgIIlUYDkeh8g5KAT1-mFV8tPuZu1cT3aiF1ZeaiB67xlbvh7TtlhdkkhnXRtmfAJEUmpsKR7Q" width="100%" height="auto" margin="0 auto" alt="embed" />
+<h1>If you have any query or problem or want to say something to us then email us at (<strong>tahsinproduction1@gmail.com</strong>)</h1><br></br><h1>You will receive reply shortly</h1>
+</Layout>)
 export default AboutPage

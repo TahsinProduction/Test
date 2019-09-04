@@ -2,13 +2,13 @@ import React from 'react'
 
 const Footer = () => (
   <div className="site-footer">
-    <h4 className="text-center">Code Blog</h4>
-    <p className="text-center">Follow us on social media</p>
+    <h4 className="text-center">TahsinProduction</h4>
+    <p className="text-center">Places To Find Us</p>
     <div className="footer-social-links">
       <ul className="social-links-list">
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.facebook.com/TahsinProduction-113057803405042/"
             target="_blank"
             rel="noopener noreferrer"
             className="facebook"
@@ -18,7 +18,7 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://twitter.com/TahsinProduct"
             target="_blank"
             rel="noopener noreferrer"
             className="twitter"
@@ -28,32 +28,62 @@ const Footer = () => (
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://myspace.com/tahsinproduction"
             target="_blank"
             rel="noopener noreferrer"
-            className="instagram"
+            className="myspace"
           >
-            <i className="fab fa-instagram fa-2x" />
+            <i className="fas fa-users fa-2x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.reddit.com/user/TahsinProduction"
             target="_blank"
             rel="noopener noreferrer"
-            className="google"
+            className="reddit"
           >
-            <i className="fab fa-google fa-2x" />
+            <i className="fab fa-reddit fa-2x" />
           </a>
         </li>
         <li>
           <a
-            href="https://www.facebook.com"
+            href="https://www.linkedin.com/in/tahsin-production-850b77192/"
             target="_blank"
             rel="noopener noreferrer"
             className="linkedin"
           >
             <i className="fab fa-linkedin fa-2x" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://tahsinproduction.tumblr.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="tumblr"
+          >
+            <i className="fab fa-tumblr fa-2x" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://medium.com/@tahsinproductionsocial"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="medium"
+          >
+            <i className="fab fa-medium-m fa-2x" />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.quora.com/profile/Tahsin-Production"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="quora"
+          >
+            <i className="fab fa-quora fa-2x" />
           </a>
         </li>
       </ul>
