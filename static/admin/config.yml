@@ -18,7 +18,7 @@ collections:
       - {label: "Categories", name: "categories", widget: "hidden", default: "Posts"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
       - {label: Author, name: author, widget: hidden, default: TahsinProduction}
-      - {label: "Header Image", name: image, widget: image, required: false, default: "https://lh3.googleusercontent.com/66fkMhM37jZ2C1I9HZbIpn_Oebmx_HytEbvFd4HSKjpULIzO5hzh8w2dRBaibstgIIlUYDkeh8g5KAT1-mFV8tPuZu1cT3aiF1ZeaiB67xlbvh7TtlhdkkhnXRtmfAJEUmpsKR7Q"}
+      - {label: "Header Image", name: image, widget: image, required: false, default: "../../images/javascript.jpg"}
       - {label: Commenting, name: comments, widget: boolean, default: true}
       - {label: Sharing, name: share, widget: boolean, default: true}
       - {label: Type, name: type, widget: hidden, default: "post"}
