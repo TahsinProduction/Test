@@ -8,7 +8,9 @@ import { slugify } from '../util/utilityFunctions'
 
 const SinglePost = ({ data, pageContext, location }) => {
   const post = data.markdownRemark.frontmatter
+
   const baseUrl = 'https://tahsinproduction.com/'
+
   return (
     <Layout
       pageTitle={post.title}
