@@ -9,5 +9,6 @@ const authors = [
     instagram: 'https://www.instagram.com/',
     google: 'https://www.google.com/',
     linkedin: 'https://www.linkedin.com/',
-  },]
+  },
+]
 module.exports = authors
