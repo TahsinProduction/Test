@@ -31,6 +31,7 @@ exports.createPages = async ({ actions, graphql }) => {
         edges {
           node {
             frontmatter {
+              author
               tags
             }
             fields {
