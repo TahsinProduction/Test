@@ -2,7 +2,6 @@ const path = require('path')
 const { slugify } = require('./src/util/utilityFunctions')
 const _ = require('lodash')
 const authors = require('./src/util/authors')
-
 exports.onCreateNode = ({ node, actions }) => {
   const { createNodeField } = actions
   if (node.internal.type === 'MarkdownRemark') {
@@ -14,7 +13,6 @@ exports.onCreateNode = ({ node, actions }) => {
     })
   }
 }
-
 exports.createPages = async ({ actions, graphql }) => {
   const { createPage } = actions
 
@@ -26,7 +24,6 @@ exports.createPages = async ({ actions, graphql }) => {
     tagsPage: path.resolve('src/templates/tags-page.js'),
     authorPosts: path.resolve('src/templates/author-posts.js'),
   }
-
   const res = await graphql(`
     {
       allMarkdownRemark {
