@@ -1,7 +1,7 @@
 ---
 title: 'First Post - Introduction'
 date: 2018-12-01 07:00:00
-author: 'John Doe'
+author: 'TahsinProduction'
 image: ../../images/javascript.jpg
 tags:
   - code
