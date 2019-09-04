@@ -7,17 +7,18 @@ public_folder: /img
 
 collections:
   - name: "Posts"
-    label: "Posts"
+    label: "Posts" 
     folder: "src/pages/posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    editor:
-    preview: true
+    slug: "{{year}}-{{slug}}"
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - { label: "Description", name: "description", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Draft", name: "draft", widget: "boolean", default: false}
-      - { label: "Tags", name: "tags", widget: "list", required: false}
-      - { label: Author, name: author, widget: hidden, default: TahsinProduction}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "date"}
+      - {label: "Draft", name: "draft", widget: "boolean", default: false}
+      - {label: "Categories", name: "categories", widget: "hidden", default: "Posts"}
+      - {label: "Tags", name: "tags", widget: "list", required: false}
+      - {label: Author, name: author, widget: hidden, default: TahsinProduction}
+      - {label: Commenting, name: comments, widget: boolean, default: true}
+      - {label: Sharing, name: share, widget: boolean, default: true}
+      - {label: Type, name: type, widget: hidden, default: "post"}
+      - {label: "Body", name: "body", widget: "markdown"}
