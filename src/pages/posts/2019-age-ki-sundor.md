@@ -9,5 +9,6 @@ author: TahsinProduction
 comments: true
 share: true
 type: post
+image: ../../images/javascript.jpg
 ---
 lilia
