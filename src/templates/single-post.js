@@ -110,8 +110,6 @@ export const postQuery = graphql`
         author
         date(formatString: "MMM Do YYYY")
         tags
-<<<<<<< HEAD
-=======
         image {
           childImageSharp {
             fluid(maxWidth: 700) {
@@ -119,7 +117,6 @@ export const postQuery = graphql`
             }
           }
         }
->>>>>>> parent of 7b7aeb1... llll
       }
     }
   }

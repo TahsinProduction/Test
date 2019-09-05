@@ -56,8 +56,6 @@ const indexQuery = graphql`
             date(formatString: "MMM Do YYYY")
             author
             tags
-<<<<<<< HEAD
-=======
             image {
               childImageSharp {
                 fluid(maxWidth: 600) {
@@ -65,7 +63,6 @@ const indexQuery = graphql`
                 }
               }
             }
->>>>>>> parent of 7b7aeb1... llll
           }
           fields {
             slug

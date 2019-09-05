@@ -78,8 +78,6 @@ const sidebarQuery = graphql`
           id
           frontmatter {
             title
-<<<<<<< HEAD
-=======
             image {
               childImageSharp {
                 fluid(maxWidth: 300) {
@@ -87,7 +85,6 @@ const sidebarQuery = graphql`
                 }
               }
             }
->>>>>>> parent of 7b7aeb1... llll
           }
           fields {
             slug

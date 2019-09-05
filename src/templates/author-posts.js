@@ -46,8 +46,6 @@ export const authorQuery = graphql`
             date(formatString: "MMMM Do YYYY")
             author
             tags
-<<<<<<< HEAD
-=======
             image {
               childImageSharp {
                 fluid(maxWidth: 650) {
@@ -55,7 +53,6 @@ export const authorQuery = graphql`
                 }
               }
             }
->>>>>>> parent of 7b7aeb1... llll
           }
           fields {
             slug
