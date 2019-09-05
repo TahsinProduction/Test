@@ -3,7 +3,6 @@ import Layout from '../components/layout'
 import { graphql, Link } from 'gatsby'
 import SEO from '../components/seo'
 import { Badge, Card, CardBody, CardSubtitle } from 'reactstrap'
-import Img from 'gatsby-image'
 import { slugify } from '../util/utilityFunctions'
 
 const SinglePost = ({ data, pageContext, location }) => {
