@@ -5,9 +5,8 @@ draft: false
 categories: Posts
 tags:
   - benzo
+  - ziona neon
 author: TahsinProduction
-comments: true
-share: true
 type: post
 ---
  na na na
