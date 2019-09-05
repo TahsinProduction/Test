@@ -24,10 +24,6 @@ const SinglePost = ({ data, pageContext, location }) => {
         pathname={location.pathname}
       />
       <Card>
-        <Img
-          className="card-image-top"
-          fluid={post.image.childImageSharp.fluid}
-        />
         <CardBody>
           <CardSubtitle>
             <span className="text-info">{post.date}</span> by{' '}
@@ -110,13 +106,6 @@ export const postQuery = graphql`
         author
         date(formatString: "MMM Do YYYY")
         tags
-        image {
-          childImageSharp {
-            fluid(maxWidth: 700) {
-              ...GatsbyImageSharpFluid
-            }
-          }
-        }
       }
     }
   }
