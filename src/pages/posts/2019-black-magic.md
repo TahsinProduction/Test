@@ -8,6 +8,7 @@ tags:
 author: TahsinProduction
 comments: true
 share: true
+image: ../../images/javascript.jpg
 type: post
 ---
 lasdmafwbqc
