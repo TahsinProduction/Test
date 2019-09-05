@@ -77,8 +77,6 @@ const sidebarQuery = graphql`
           id
           frontmatter {
             title
-            image {
-            }
           }
           fields {
             slug

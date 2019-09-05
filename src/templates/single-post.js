@@ -109,8 +109,6 @@ export const postQuery = graphql`
         author
         date(formatString: "MMM Do YYYY")
         tags
-        image {
-        }
       }
     }
   }

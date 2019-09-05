@@ -55,8 +55,6 @@ const indexQuery = graphql`
             date(formatString: "MMM Do YYYY")
             author
             tags
-            image {
-            }
           }
           fields {
             slug

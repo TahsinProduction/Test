@@ -44,8 +44,6 @@ export const postListQuery = graphql`
             date(formatString: "MMMM Do YYYY")
             author
             tags
-            image {
-            }
           }
           fields {
             slug
