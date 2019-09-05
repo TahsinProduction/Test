@@ -24,7 +24,6 @@ const authorPosts = ({ data, pageContext }) => {
           date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
         />
       ))}
     </Layout>
@@ -46,13 +45,6 @@ export const authorQuery = graphql`
             date(formatString: "MMMM Do YYYY")
             author
             tags
-            image {
-              childImageSharp {
-                fluid(maxWidth: 650) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
           }
           fields {
             slug
