@@ -6,7 +6,6 @@ categories: Posts
 tags:
   - quoratic
 author: TahsinProduction
-image: ../../images/javascript.jpg
 comments: true
 share: true
 type: post
