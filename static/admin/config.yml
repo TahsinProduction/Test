@@ -17,8 +17,6 @@ collections:
       - {label: "Draft", name: "draft", widget: "boolean", default: false}
       - {label: "Categories", name: "categories", widget: "hidden", default: "Posts"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: Author, name: author, widget: hidden, default: TahsinProduction}
-      - {label: Commenting, name: comments, widget: boolean, default: true}
-      - {label: Sharing, name: share, widget: boolean, default: true}
+      - {label: Author, name: author, widget: hidden, default: "TahsinProduction" }
       - {label: Type, name: type, widget: hidden, default: "post"}
       - {label: "Body", name: "body", widget: "markdown"}
