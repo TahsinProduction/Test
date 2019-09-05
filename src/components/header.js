@@ -31,7 +31,7 @@ class Header extends React.Component {
       <div>
         <Navbar fixed="top" light expand="sm">
           <div className="container">
-        <img src={mylogo} style={{ maxWidth: '100%' }} alt="My Logo" />
+            <img src={mylogo} style={{ maxWidth: '100%' }} alt="My Logo" />
             <NavbarBrand href="/">{this.props.siteTitle}</NavbarBrand>
             <NavbarToggler onClick={this.toggle} />
             <Collapse isOpen={this.state.isOpen} navbar>
