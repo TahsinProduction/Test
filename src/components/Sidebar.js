@@ -47,7 +47,6 @@ const Sidebar = () => (
                   <Link to={node.fields.slug}>
                     <Img
                       className="card-image-top"
-                      fluid={node.frontmatter.image.childImageSharp.fluid}
                     />
                   </Link>
                   <CardBody>
@@ -79,11 +78,6 @@ const sidebarQuery = graphql`
           frontmatter {
             title
             image {
-              childImageSharp {
-                fluid(maxWidth: 300) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
             }
           }
           fields {

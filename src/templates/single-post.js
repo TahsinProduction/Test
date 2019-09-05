@@ -26,7 +26,6 @@ const SinglePost = ({ data, pageContext, location }) => {
       <Card>
         <Img
           className="card-image-top"
-          fluid={post.image.childImageSharp.fluid}
         />
         <CardBody>
           <CardSubtitle>
@@ -111,11 +110,6 @@ export const postQuery = graphql`
         date(formatString: "MMM Do YYYY")
         tags
         image {
-          childImageSharp {
-            fluid(maxWidth: 700) {
-              ...GatsbyImageSharpFluid
-            }
-          }
         }
       }
     }
