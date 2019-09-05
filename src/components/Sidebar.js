@@ -47,6 +47,7 @@ const Sidebar = () => (
                   <Link to={node.fields.slug}>
                     <Img
                       className="card-image-top"
+                      fluid={node.frontmatter.image.childImageSharp.fluid}
                     />
                   </Link>
                   <CardBody>
@@ -77,6 +78,16 @@ const sidebarQuery = graphql`
           id
           frontmatter {
             title
+<<<<<<< HEAD
+=======
+            image {
+              childImageSharp {
+                fluid(maxWidth: 300) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+>>>>>>> parent of 7b7aeb1... llll
           }
           fields {
             slug

@@ -26,6 +26,7 @@ const SinglePost = ({ data, pageContext, location }) => {
       <Card>
         <Img
           className="card-image-top"
+          fluid={post.image.childImageSharp.fluid}
         />
         <CardBody>
           <CardSubtitle>
@@ -109,6 +110,16 @@ export const postQuery = graphql`
         author
         date(formatString: "MMM Do YYYY")
         tags
+<<<<<<< HEAD
+=======
+        image {
+          childImageSharp {
+            fluid(maxWidth: 700) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+>>>>>>> parent of 7b7aeb1... llll
       }
     }
   }
