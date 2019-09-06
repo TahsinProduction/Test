@@ -3,6 +3,7 @@ module.exports = {
     title: `TahsinProduction`,
     description: `Offical Website Of TahsinProduction`,
     author: `@TahsinProduction`,
+    siteurl: `lionisking.ml`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
