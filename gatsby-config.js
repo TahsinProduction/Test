@@ -3,7 +3,6 @@ module.exports = {
     title: `TahsinProduction`,
     description: `Offical Website Of TahsinProduction`,
     author: `@TahsinProduction`,
-    siteUrl: `lionisking.ml`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -19,7 +18,9 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-robots-txt',
       options: {
-        policy: [{ userAgent: '*', allow: '/' }]    
+        host: 'https://www.lionisking.ml',
+        sitemap: 'https://www.lionisking.ml/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
     }
     },
     {
