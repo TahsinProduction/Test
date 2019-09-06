@@ -11,6 +11,23 @@ module.exports = {
     'gatsby-transformer-remark',
     `gatsby-plugin-netlify-cms`,
     {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: `UA-147303543-1`,    },
+    },
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        policy: [{ userAgent: '*', allow: '/' }]    
+    }
+    },
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        exclude: [`/admin`, `/tags/links`]  
+    }
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,
