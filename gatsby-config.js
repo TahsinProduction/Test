@@ -1,5 +1,6 @@
 module.exports = {
   siteMetadata: {
+    siteUrl: `https://www.lionisking.ml`,
     title: `TahsinProduction`,
     description: `Offical Website Of TahsinProduction`,
     author: `@TahsinProduction`,
@@ -10,6 +11,8 @@ module.exports = {
     'gatsby-plugin-catch-links',
     'gatsby-transformer-remark',
     `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-sitemap`,
+    'gatsby-plugin-robots-txt',
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
