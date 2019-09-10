@@ -18,7 +18,6 @@ const tagPosts = ({ data, pageContext }) => {
           slug={node.fields.slug}
           title={node.frontmatter.title}
           author={node.frontmatter.author}
-          date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
         />
@@ -39,7 +38,6 @@ export const tagQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM Do YYYY")
             author
             tags
           }

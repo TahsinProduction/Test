@@ -16,7 +16,6 @@ const postList = props => {
           slug={node.fields.slug}
           title={node.frontmatter.title}
           author={node.frontmatter.author}
-          date={node.frontmatter.date}
           body={node.excerpt}
           tags={node.frontmatter.tags}
         />
@@ -41,7 +40,6 @@ export const postListQuery = graphql`
           id
           frontmatter {
             title
-            date(formatString: "MMMM Do YYYY")
             author
             tags
           }

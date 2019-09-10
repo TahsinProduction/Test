@@ -77,7 +77,7 @@ function SEO({
     />
   )
 }
-zz
+
 SEO.defaultProps = {
   lang: 'en',
   meta: [],

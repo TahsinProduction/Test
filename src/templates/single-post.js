@@ -25,7 +25,6 @@ const SinglePost = ({ data, pageContext, location }) => {
       <Card>
         <CardBody>
           <CardSubtitle>
-            <span className="text-info">{post.date}</span> by{' '}
             <span className="text-info">{post.author}</span>
           </CardSubtitle>
           <div dangerouslySetInnerHTML={{ __html: data.markdownRemark.html }} />
@@ -103,7 +102,6 @@ export const postQuery = graphql`
       frontmatter {
         title
         author
-        date(formatString: "MMM Do YYYY")
         tags
       }
     }

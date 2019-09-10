@@ -10,14 +10,13 @@ import {
 import { Link } from 'gatsby'
 import { slugify } from '../util/utilityFunctions'
 
-const Post = ({ title, author, slug, date, body, tags }) => (
+const Post = ({ title, author, slug, body, tags }) => (
   <Card>
     <CardBody>
       <CardTitle>
         <Link to={slug}>{title}</Link>
       </CardTitle>
       <CardSubtitle>
-        <span className="text-info">{date}</span> by{' '}
         <span className="text-info">{author}</span>
       </CardSubtitle>
       <CardText>{body}</CardText>
