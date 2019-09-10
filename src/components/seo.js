@@ -193,7 +193,6 @@ const query = graphql`
         siteUrl
         defaultTitle: title
         defaultDescription: description
-        defaultBanner: banner
         headline
         siteLanguage
         ogLanguage
