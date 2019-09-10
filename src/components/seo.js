@@ -18,7 +18,6 @@ function SEO({
       query={detailsQuery}
       render={data => {
         return (
-          <>
           <Helmet
             htmlAttributes={{
               lang,
@@ -73,26 +72,12 @@ function SEO({
               )
               .concat(meta)}
           />
-          <SchemaOrg          
-          isBlogPost={isBlogPost}          
-          url={metaUrl}          
-          title={title}          
-          image={metaImage}          
-          description={metaDescription}          
-          datePublished={datePublished}          
-          dateModified={dateModified}          
-          canonicalUrl={siteUrl}          
-          author={isBlogPost ? author : siteMetadata.author}          
-          organization={organization}          
-          defaultTitle={title}        
-          />
-        </>
         )
       }}
     />
   )
 }
-
+zz
 SEO.defaultProps = {
   lang: 'en',
   meta: [],
