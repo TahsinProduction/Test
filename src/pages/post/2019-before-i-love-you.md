@@ -10,4 +10,33 @@ comments: true
 share: true
 type: post
 ---
- na na na
+<html>
+<head>
+<title>Super Book</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Thing",
+    "name": "Super Book"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Joe"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "7",
+    "bestRating": "10"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Washington Times"
+  }
+}
+</script>
+</head>
+<body>
+</body>
+</html>
