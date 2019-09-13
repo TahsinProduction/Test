@@ -7,7 +7,26 @@ import Footer from './Footer'
 import Sidebar from './Sidebar'
 import '../styles/index.scss'
 
+import { Person } from "schema-dts";
+import { JsonLd } from "react-schemaorg";
+
+
 import { Row, Col } from 'reactstrap'
+
+export function GraceHopper() {
+  return <JsonLd
+    item={{
+      "@context": "https://schema.org",
+      "@type": "Person",
+      name: "Grace Hopper",
+      alternateName: "Grace Brewster Murray Hopper",
+      alumniOf: {
+        "@type": "CollegeOrUniversity",
+        name: ["Yale University", "Vassar College"]
+      },
+      knowsAbout: ["Compilers", "Computer Science"]
+    }}/>;
+}
 
 const Layout = ({ children, pageTitle }) => (
   <StaticQuery
