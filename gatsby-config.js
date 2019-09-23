@@ -16,8 +16,10 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-html2amp',
       options: {
-        files: ['**/*.html'],
-        dist: 'public/amp'
+        files: ['post/**/index.html', 'index.html'],
+        publicPath: 'public',
+        gaConfigPath: 'gaConfig.json',
+        dist: 'public/dist'
       },
     },
     {
