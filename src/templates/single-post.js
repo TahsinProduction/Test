@@ -93,12 +93,12 @@ const SinglePost = ({ data, pageContext, location }) => {
     </Layout>
   )
 }
-
 export const postQuery = graphql`
   query blogPostBySlug($slug: String!) {
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       html
+      fields {slug}
       frontmatter {
         title
         author
