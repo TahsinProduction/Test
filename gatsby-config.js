@@ -14,6 +14,13 @@ module.exports = {
     `gatsby-plugin-sitemap`,
     'gatsby-plugin-robots-txt',
     {
+      resolve: 'gatsby-plugin-html2amp',
+      options: {
+        files: ['**/*.html'],
+        dist: 'public/amp'
+      },
+    },
+    {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `https://www.lionisking.ml`,
